@@ -243,7 +243,7 @@ dl ,ol ,ul{
 .container{
     width: 100%;
     max-width: 1200px;
-    height: 430px;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -296,6 +296,12 @@ dl ,ol ,ul{
 
 /* servicios */
 
+.imgservicios{
+    padding: 30px;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
 
 
 
