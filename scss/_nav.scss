@@ -1,0 +1,26 @@
+$colorbg:#ffd900;
+$colorTexto:black;
+
+.navbar{
+    font-size: 15px;
+    font-weight: 500; 
+    .posicion{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%; 
+        .navbar-collapse{
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        &:hover{
+                            background-color: $colorbg;
+                            color: $colorTexto;
+                            border-radius: 10px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }  
+    }
+}

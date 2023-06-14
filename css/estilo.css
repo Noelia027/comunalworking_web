@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Poppins', sans-serif; }
+
+.navbar {
+  font-size: 15px;
+  font-weight: 500; }
+  .navbar .posicion {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; }
+    .navbar .posicion .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+      background-color: #ffd900;
+      color: black;
+      border-radius: 10px;
+      font-weight: 500; }
+
+.header1 .contenido {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(../img/oficina0.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  align-items: center; }
+  .header1 .contenido .tituloIndex {
+    font-weight: 400;
+    font-size: 4rem;
+    padding: 50px;
+    max-width: 1200px;
+    text-align: center;
+    flex-wrap: wrap; }
+  .header1 .contenido .parrafoIndex {
+    font-weight: 300;
+    max-width: 1200px;
+    padding: 50px;
+    font-size: 2rem;
+    flex-wrap: wrap; }
+
+.mainIndex {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+  .mainIndex .oficina4 {
+    width: 100%;
+    max-width: 600px; }
+  .mainIndex .texto1 {
+    padding: 10px; }
+
+.contenidosbrn {
+  text-align: center;
+  color: black; }
+  .contenidosbrn .row .titulosbrn {
+    font-weight: 300;
+    padding: 5px;
+    font-size: 2.5rem;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 20px auto; }
+  .contenidosbrn .row .titulo2sbrn {
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 20px; }
+  .contenidosbrn .descripcionsbrn {
+    padding: 30px;
+    display: flex;
+    align-items: center; }
+    .contenidosbrn .descripcionsbrn .textosbrn {
+      display: flex;
+      padding: 30px;
+      flex-wrap: wrap;
+      text-align: left; }
+    .contenidosbrn .descripcionsbrn .imgsbrn {
+      width: 100%;
+      max-width: 800px;
+      padding: 30px;
+      margin: 2px; }
+
+.bodynof {
+  width: 100%;
+  height: 100%;
+  letter-spacing: 0.03rem;
+  line-height: 1.6; }
+  .bodynof .titulonof {
+    font-weight: 300;
+    text-align: center;
+    padding: 50px; }
+  .bodynof .seccionnof {
+    padding-bottom: 30px; }
+    .bodynof .seccionnof .container {
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: auto; }
+      .bodynof .seccionnof .container .cardnof {
+        width: 330px;
+        height: 430px;
+        border-radius: 6px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25 ease; }
+        .bodynof .seccionnof .container .cardnof:hover {
+          transform: translateY(-1%);
+          box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+        .bodynof .seccionnof .container .cardnof .imgnof {
+          width: 330px;
+          height: 220px; }
+        .bodynof .seccionnof .container .cardnof .titulocard {
+          padding: .5rem;
+          font-weight: 500;
+          font-size: 1.3rem; }
+        .bodynof .seccionnof .container .cardnof .textocard {
+          padding: 0 .5rem;
+          font-size: 1rem;
+          font-weight: 400; }
+        .bodynof .seccionnof .container .cardnof .bntcard {
+          text-decoration: none;
+          display: inline-block;
+          padding: 10px;
+          margin-top: 10px;
+          color: black;
+          border: 1px solid #ffd900;
+          border-radius: 10px;
+          transition: all 400ms ease; }
+          .bodynof .seccionnof .container .cardnof .bntcard:hover {
+            background: #ffd900;
+            color: black; }
+
+.containerServicios {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 100px auto; }
+  .containerServicios .servicio {
+    width: 200px;
+    padding: 10px;
+    margin: 40px; }
+    .containerServicios .servicio .servicioimg {
+      width: 70px; }
+    .containerServicios .servicio .descripcionServicios {
+      font-weight: 400;
+      font-size: 1.3rem; }
+
+.contenidoFormulario {
+  background-image: url(../img/oficina2fondo.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; }
+  .contenidoFormulario .tituloFormulario {
+    color: white;
+    font-size: 2.5rem;
+    max-width: 400px;
+    font-weight: 300;
+    align-items: center;
+    padding: 10px; }
+  .contenidoFormulario .formulario {
+    min-width: 500px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px; }
+
+.footerp {
+  background-color: black;
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  .footerp .icoImageFooter {
+    width: 100px; }
+  .footerp .derechos {
+    color: white;
+    padding: 10px; }
+  .footerp .redesSociales .redes {
+    height: 40px; }
+
+@media screen and (max-width: 576px) {
+  .header1 .contenido .tituloIndex {
+    font-weight: 400;
+    padding: 25px;
+    font-size: 2.5rem;
+    line-height: 70px; }
+  .header1 .contenido .parrafoIndex {
+    font-weight: 300;
+    line-height: 45px;
+    padding: 40px;
+    font-size: 1.8rem;
+    display: flex;
+    flex-wrap: wrap; }
+  .texto1 {
+    font-size: 0.8rem;
+    padding: 8px; }
+  .titulosbrn {
+    padding: 10px;
+    max-width: 350px;
+    font-size: 0.5rem; }
+  .titulo2sbrn {
+    font-size: 0.5rem; }
+  .textosbrn {
+    font-size: 0.8rem;
+    display: flex;
+    padding: 6px;
+    flex-wrap: wrap; } }

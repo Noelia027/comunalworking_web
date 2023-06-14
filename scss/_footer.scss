@@ -1,0 +1,22 @@
+.footerp{
+    background-color: black;
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .icoImageFooter{
+        width: 100px;
+    }
+
+    .derechos{
+        color: white;
+        padding: 10px;
+    }
+    
+    .redesSociales{
+        .redes{
+            height: 40px;
+        }
+    }
+}

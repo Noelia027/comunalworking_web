@@ -1,0 +1,77 @@
+$vista:mobile;
+
+@if $vista == desktop {
+    @media screen and (max-width: 768px) {
+        .nav1{
+            display: none;
+            background-color: black;
+        }
+    
+        .titulo{
+            font-weight: 400;
+            font-size: 2.5rem;
+            max-width: 600px;
+            display: flex;
+            text-align: center;
+            flex-wrap: wrap;
+         }
+          
+         .par{
+            font-weight: 300;
+            max-width: 1100px;
+            padding: 100px;
+            font-size:1.5rem;
+            display: flex;
+            flex-wrap: wrap;
+        } 
+        .texto1{
+            font-size: 1rem;
+            padding: 10px;
+        }
+    }
+} @else if $vista == mobile{
+    @media screen and (max-width: 576px) {
+        
+        .header1{ 
+            .contenido{
+                .tituloIndex{
+                    font-weight: 400;
+                    padding:25px;
+                    font-size:2.5rem;
+                    line-height: 70px;
+                    
+                 }
+                .parrafoIndex{
+                    font-weight: 300;
+                    line-height: 45px;
+                    padding: 40px;
+                    font-size:1.8rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+        .texto1{
+            font-size: 0.8rem;
+            padding: 8px;
+        }
+
+
+
+        .titulosbrn{
+            padding: 10px;
+            max-width: 350px;
+            
+            font-size: 0.5rem;
+        }
+        .titulo2sbrn{
+            font-size: 0.5rem;
+        }
+        .textosbrn{
+            font-size: 0.8rem;
+            display: flex;
+            padding: 6px;
+            flex-wrap: wrap;
+        }
+    }
+}

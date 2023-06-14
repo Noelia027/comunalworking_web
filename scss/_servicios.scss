@@ -1,0 +1,20 @@
+.containerServicios{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    .servicio{
+        width: 200px;
+        padding: 10px;
+        margin: 40px;
+        .servicioimg{
+            width: 70px;
+        }
+        .descripcionServicios{
+            font-weight: 400;
+            font-size: 1.3rem;
+
+        }
+    }
+}

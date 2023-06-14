@@ -1,0 +1,44 @@
+.header1{
+    .contenido{
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../img/oficina0.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: white; 
+        justify-content: center;  
+        align-items: center;
+        
+        .tituloIndex{
+            font-weight: 400;
+            font-size: 4rem;
+            padding:  50px;
+            max-width: 1200px;
+            text-align: center;
+            flex-wrap: wrap;    
+        }
+        .parrafoIndex{
+            font-weight: 300;
+            max-width: 1200px;
+            padding: 50px;
+            font-size:2rem;
+            flex-wrap: wrap; 
+        }
+    }
+}
+
+.mainIndex{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    .oficina4{
+        width: 100%;
+        max-width: 600px;
+    }
+    .texto1{
+        padding: 10px;
+    }
+}

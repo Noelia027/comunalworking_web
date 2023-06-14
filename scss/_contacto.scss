@@ -1,0 +1,27 @@
+.contenidoFormulario{
+    background-image: url(../img/oficina2fondo.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    .tituloFormulario{
+        color: white;
+        font-size: 2.5rem;
+        max-width: 400px;
+        font-weight: 300;
+        align-items: center;
+        padding: 10px;
+    }
+    .formulario{
+        min-width: 500px;
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+        margin: 50px;
+    }
+
+}
