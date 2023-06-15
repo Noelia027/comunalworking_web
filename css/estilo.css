@@ -48,41 +48,46 @@ body {
   padding: 20px;
   display: flex;
   justify-content: center;
-  align-content: center; }
+  align-content: center;
+  justify-items: center; }
   .mainIndex .oficina4 {
     width: 100%;
-    max-width: 600px; }
+    max-width: 600px;
+    justify-content: center; }
   .mainIndex .texto1 {
-    padding: 10px; }
+    padding: 10px;
+    color: black;
+    line-height: 35px; }
 
 .contenidosbrn {
   text-align: center;
   color: black; }
   .contenidosbrn .row .titulosbrn {
     font-weight: 300;
-    padding: 5px;
+    padding: 20px;
     font-size: 2.5rem;
     flex-wrap: wrap;
     max-width: 900px;
-    margin: 20px auto; }
+    margin: 20px auto;
+    --bs-gutter-x: 0; }
   .contenidosbrn .row .titulo2sbrn {
     font-weight: 500;
     font-size: 1.2rem;
-    padding: 20px; }
+    padding: 30px; }
   .contenidosbrn .descripcionsbrn {
-    padding: 30px;
     display: flex;
     align-items: center; }
     .contenidosbrn .descripcionsbrn .textosbrn {
       display: flex;
       padding: 30px;
       flex-wrap: wrap;
-      text-align: left; }
+      text-align: left;
+      margin-bottom: 0; }
     .contenidosbrn .descripcionsbrn .imgsbrn {
       width: 100%;
       max-width: 800px;
       padding: 30px;
-      margin: 2px; }
+      margin-bottom: 0; }
 
 .bodynof {
   width: 100%;
@@ -188,7 +193,8 @@ body {
     width: 100px; }
   .footerp .derechos {
     color: white;
-    padding: 10px; }
+    padding: 10px;
+    text-align: center; }
   .footerp .redesSociales .redes {
     height: 40px; }
 
@@ -208,14 +214,25 @@ body {
   .texto1 {
     font-size: 0.8rem;
     padding: 8px; }
-  .titulosbrn {
+  .contenidosbrn .titulosbrn {
     padding: 10px;
     max-width: 350px;
     font-size: 0.5rem; }
-  .titulo2sbrn {
+  .contenidosbrn .titulo2sbrn {
     font-size: 0.5rem; }
-  .textosbrn {
-    font-size: 0.8rem;
-    display: flex;
-    padding: 6px;
-    flex-wrap: wrap; } }
+  .descripcionsbrn {
+    padding: 2px; }
+    .descripcionsbrn .textosbrn {
+      font-size: 0.8rem;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap; }
+  .footerp .icoImageFooter {
+    width: 80px;
+    height: 40px; }
+  .footerp .derechos {
+    font-size: 0.7rem;
+    margin-bottom: 0; }
+  .footerp .redesSociales .redes {
+    width: 30px;
+    height: 30px; } }

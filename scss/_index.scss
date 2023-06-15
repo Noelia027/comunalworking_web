@@ -1,3 +1,9 @@
+$colorbg:black;
+$colorbg2:#ffd900;
+$colorTexto:black;
+$colorTexto2: white;
+
+
 .header1{
     .contenido{
         background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../img/oficina0.png);
@@ -7,7 +13,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        color: white; 
+        color: $colorTexto2; 
         justify-content: center;  
         align-items: center;
         
@@ -34,11 +40,15 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    justify-items: center;
     .oficina4{
         width: 100%;
         max-width: 600px;
+        justify-content: center;
     }
     .texto1{
         padding: 10px;
+        color: $colorTexto;
+        line-height: 35px;
     }
 }

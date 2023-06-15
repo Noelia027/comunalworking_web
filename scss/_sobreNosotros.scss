@@ -1,5 +1,6 @@
 $colorbg:#ffd900;
 $colorTexto:black;
+$grid-gutter-width: 1.5rem;
 
 .contenidosbrn{
     text-align: center;
@@ -7,20 +8,20 @@ $colorTexto:black;
     .row{
         .titulosbrn{
             font-weight: 300;
-            padding: 5px;
+            padding: 20px;
             font-size: 2.5rem;
             flex-wrap: wrap;
             max-width: 900px;
-            margin: 20px auto;
+            margin: 20px auto; 
+            --bs-gutter-x: 0;
         }
         .titulo2sbrn{
             font-weight: 500;
             font-size: 1.2rem;
-            padding: 20px;
+            padding: 30px;
         }
     }
     .descripcionsbrn{
-        padding: 30px;
         display: flex;
         align-items: center;
         .textosbrn{
@@ -28,12 +29,13 @@ $colorTexto:black;
             padding: 30px;
             flex-wrap: wrap;
             text-align: left;
+            margin-bottom: 0;
         }
         .imgsbrn{
             width: 100%;
             max-width: 800px;
             padding: 30px;
-            margin:2px 
+            margin-bottom: 0;
         }
     }   
 

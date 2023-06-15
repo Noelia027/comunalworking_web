@@ -57,21 +57,56 @@ $vista:mobile;
         }
 
 
+        .contenidosbrn{
+            .titulosbrn{
+                padding: 10px;
+                max-width: 350px;
+                
+                font-size: 0.5rem;
+            }
+            .titulo2sbrn{
+                font-size: 0.5rem;
+            }
+        }
+        .descripcionsbrn{
+            padding: 2px;
+            .textosbrn{
+                font-size: 0.8rem;
+                padding: 10px;
+                display: flex;
+                flex-wrap: wrap;
+            }
 
-        .titulosbrn{
-            padding: 10px;
-            max-width: 350px;
+        }
+
+
+
+
+      
+
+
+
+
+        .footerp{
+            .icoImageFooter{
+                width: 80px;
+                height: 40px;
+            }
+            .derechos{
+                font-size: 0.7rem;
+                margin-bottom: 0;
+                
+            }
+            .redesSociales{
+                .redes{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
             
-            font-size: 0.5rem;
         }
-        .titulo2sbrn{
-            font-size: 0.5rem;
-        }
-        .textosbrn{
-            font-size: 0.8rem;
-            display: flex;
-            padding: 6px;
-            flex-wrap: wrap;
-        }
+
+
+        
     }
 }

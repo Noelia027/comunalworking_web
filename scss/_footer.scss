@@ -1,5 +1,11 @@
+$colorbg:black;
+$colorbg2:#ffd900;
+$colorTexto:black;
+$colorTexto2: white;
+
+
 .footerp{
-    background-color: black;
+    background-color:$colorbg;
     padding: 2rem;
     width: 100%;
     display: flex;
@@ -10,8 +16,10 @@
     }
 
     .derechos{
-        color: white;
+        color: $colorTexto2;
         padding: 10px;
+        text-align: center;
+        
     }
     
     .redesSociales{

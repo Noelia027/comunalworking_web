@@ -1,4 +1,4 @@
-$colorbg:#ffd900;
+$colorbg2:#ffd900;
 $colorTexto:black;
 
 .navbar{
@@ -13,7 +13,7 @@ $colorTexto:black;
                 .nav-item{
                     .nav-link{
                         &:hover{
-                            background-color: $colorbg;
+                            background-color: $colorbg2;
                             color: $colorTexto;
                             border-radius: 10px;
                             font-weight: 500;
