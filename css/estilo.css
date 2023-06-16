@@ -23,6 +23,9 @@ body {
       border-radius: 10px;
       font-weight: 500; }
 
+.row {
+  --bs-gutter-x: 0; }
+
 .header1 .contenido {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(../img/oficina0.png);
   height: 100vh;
@@ -48,20 +51,26 @@ body {
     font-size: 2rem;
     flex-wrap: wrap; }
 
+.row {
+  --bs-gutter-x: 0; }
+
 .mainIndex {
+  font-weight: 300;
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
-  align-content: center;
-  justify-items: center; }
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  margin: 10px auto; }
   .mainIndex .oficina4 {
-    width: 100%;
-    max-width: 600px;
-    justify-content: center; }
+    max-width: 95%;
+    margin: 20px; }
   .mainIndex .texto1 {
-    padding: 10px;
-    color: black;
-    line-height: 35px; }
+    line-height: 30px;
+    margin: 20px; }
 
 .contenidosbrn {
   text-align: center;
@@ -79,19 +88,24 @@ body {
     font-size: 1.2rem;
     padding: 30px; }
   .contenidosbrn .descripcionsbrn {
+    font-weight: 300;
+    padding: 20px;
     display: flex;
-    align-items: center; }
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    margin: 10px auto; }
     .contenidosbrn .descripcionsbrn .textosbrn {
-      display: flex;
-      padding: 30px;
-      flex-wrap: wrap;
       text-align: left;
-      margin-bottom: 0; }
+      line-height: 30px;
+      margin: 20px; }
     .contenidosbrn .descripcionsbrn .imgsbrn {
-      width: 100%;
+      width: 95%;
       max-width: 800px;
-      padding: 30px;
-      margin-bottom: 0; }
+      margin: 20px; }
 
 .bodynof {
   width: 100%;
@@ -131,14 +145,17 @@ body {
           font-weight: 500;
           font-size: 1.3rem; }
         .bodynof .seccionnof .container .cardnof .textocard {
+          font-weight: 300;
           padding: 0 .5rem;
-          font-size: 1rem;
-          font-weight: 400; }
+          font-size: 1rem; }
         .bodynof .seccionnof .container .cardnof .bntcard {
           text-decoration: none;
           display: inline-block;
           padding: 10px;
           margin-top: 10px;
+          font-weight: 400;
+          letter-spacing: 1px;
+          font-size: 0.8rem;
           color: black;
           border: 1px solid #ffd900;
           border-radius: 10px;
@@ -198,6 +215,7 @@ body {
   .footerp .derechos {
     color: white;
     padding: 10px;
+    font-weight: 300;
     text-align: center; }
   .footerp .redesSociales .redes {
     height: 40px; }
@@ -217,7 +235,8 @@ body {
     flex-wrap: wrap; }
   .texto1 {
     font-size: 0.8rem;
-    padding: 8px; }
+    padding: 10px;
+    line-height: 10px; }
   .contenidosbrn .titulosbrn {
     padding: 10px;
     max-width: 350px;

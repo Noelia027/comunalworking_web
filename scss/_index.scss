@@ -3,7 +3,9 @@ $colorbg2:#ffd900;
 $colorTexto:black;
 $colorTexto2: white;
 
-
+.row{
+    --bs-gutter-x: 0;
+}
 .header1{
     .contenido{
         background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../img/oficina0.png);
@@ -34,21 +36,28 @@ $colorTexto2: white;
         }
     }
 }
-
+.row{
+    --bs-gutter-x: 0;
+}
 .mainIndex{
+    font-weight: 300;
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
-    align-content: center;
-    justify-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    margin: 10px auto;
+
     .oficina4{
-        width: 100%;
-        max-width: 600px;
-        justify-content: center;
+        max-width: 95%;
+        margin: 20px;
     }
+
     .texto1{
-        padding: 10px;
-        color: $colorTexto;
-        line-height: 35px;
+        line-height: 30px;
+        margin: 20px;   
     }
 }

@@ -22,21 +22,25 @@ $grid-gutter-width: 1.5rem;
         }
     }
     .descripcionsbrn{
+        font-weight: 300;
+        padding: 20px;
         display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
+        max-width: 1600px;
+        margin: 10px auto;
         .textosbrn{
-            display: flex;
-            padding: 30px;
-            flex-wrap: wrap;
             text-align: left;
-            margin-bottom: 0;
+            line-height: 30px;
+            margin: 20px;  
         }
         .imgsbrn{
-            width: 100%;
+            width: 95%;
             max-width: 800px;
-            padding: 30px;
-            margin-bottom: 0;
+            margin: 20px;
         }
     }   
-
 }
