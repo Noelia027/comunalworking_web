@@ -1,6 +1,6 @@
 $vista:mobile;
 
-@if $vista == desktop {
+@if $vista == tablet {
     @media screen and (max-width: 768px) {
         .nav1{
             display: none;
@@ -29,6 +29,7 @@ $vista:mobile;
             padding: 10px;
         }
     }
+    
 } @else if $vista == mobile{
     @media screen and (max-width: 576px) {
         
@@ -54,6 +55,7 @@ $vista:mobile;
         .texto1{
             font-size: 0.8rem;
             padding: 8px;
+            
         }
 
 

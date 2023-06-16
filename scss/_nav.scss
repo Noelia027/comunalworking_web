@@ -8,6 +8,13 @@ $colorTexto:black;
         display: flex;
         justify-content: flex-end;
         width: 100%; 
+        .navbar-toggler{
+            border: none !important;
+            &:focus{
+                box-shadow: none !important;
+
+            }
+        }
         .navbar-collapse{
             .navbar-nav{
                 .nav-item{
