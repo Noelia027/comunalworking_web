@@ -1,39 +1,8 @@
 $vista:mobile;
 
-@if $vista == tablet {
-    @media screen and (max-width: 768px) {
-        .nav1{
-            display: none;
-            background-color: black;
-        }
-    
-        .titulo{
-            font-weight: 400;
-            font-size: 2.5rem;
-            max-width: 600px;
-            display: flex;
-            text-align: center;
-            flex-wrap: wrap;
-         }
-          
-         .par{
-            font-weight: 300;
-            max-width: 1100px;
-            padding: 100px;
-            font-size:1.5rem;
-            display: flex;
-            flex-wrap: wrap;
-        } 
-        .texto1{
-            font-size: 1rem;
-            padding: 10px;
-            line-height: 25px;
-        }
-    }
-    
-} @else if $vista == mobile{
-    @media screen and (max-width: 576px) {
-        
+
+@if $vista == mobile {
+    @media screen and (max-width: 550px) {
         .header1{ 
             .contenido{
                 .tituloIndex{
@@ -53,12 +22,25 @@ $vista:mobile;
                 }
             }
         }
-        .texto1{
+            .mainIndex{
+
+                .oficina4{
+                    padding: 5px;
+                    margin: 10px auto;
+                    
+                   
+                }    
+
+                .texto1{
+                    font-size: 0.8rem;
+                    padding: 5px;
+                    margin: 10px;
+                    line-height: 27px;   
+                }
+            }
             
-            font-size: 0.8rem;
-            padding: 10px;
-            line-height: 10px;   
-        }
+        
+        
 
 
         .contenidosbrn{
@@ -83,7 +65,7 @@ $vista:mobile;
 
         }
 
-
+        
 
 
       
@@ -113,4 +95,7 @@ $vista:mobile;
 
         
     }
+       
 }
+    
+ 

@@ -9,19 +9,16 @@ body {
 .navbar {
   font-size: 15px;
   font-weight: 500; }
+  .navbar .navbar-toggler {
+    border: none !important; }
+    .navbar .navbar-toggler:focus {
+      box-shadow: none !important; }
   .navbar .posicion {
     display: flex;
     justify-content: flex-end;
     width: 100%; }
-    .navbar .posicion .navbar-toggler {
-      border: none !important; }
-      .navbar .posicion .navbar-toggler:focus {
-        box-shadow: none !important; }
-    .navbar .posicion .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-      background-color: #ffd900;
-      color: black;
-      border-radius: 10px;
-      font-weight: 500; }
+    .navbar .posicion .nav-item .nav-link:hover {
+      color: #ffd900; }
 
 .row {
   --bs-gutter-x: 0; }
@@ -59,7 +56,7 @@ body {
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -67,7 +64,7 @@ body {
   margin: 10px auto; }
   .mainIndex .oficina4 {
     max-width: 95%;
-    margin: 20px; }
+    margin: 10px; }
   .mainIndex .texto1 {
     line-height: 30px;
     margin: 20px; }
@@ -180,29 +177,24 @@ body {
       font-weight: 400;
       font-size: 1.3rem; }
 
-.contenidoFormulario {
+.mainContacto {
   background-image: url(../img/oficina2fondo.png);
   height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  padding: 30px;
   display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around; }
-  .contenidoFormulario .tituloFormulario {
+  max-width: 1600px; }
+  .mainContacto .tituloContacto {
     color: white;
-    font-size: 2.5rem;
-    max-width: 400px;
-    font-weight: 300;
-    align-items: center;
-    padding: 10px; }
-  .contenidoFormulario .formulario {
-    min-width: 500px;
-    padding: 30px;
-    background-color: white;
+    margin: 20px; }
+  .mainContacto .formulario {
     border-radius: 10px;
-    margin: 50px; }
+    background-color: white;
+    padding: 20px; }
 
 .footerp {
   background-color: black;
@@ -220,7 +212,7 @@ body {
   .footerp .redesSociales .redes {
     height: 40px; }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 550px) {
   .header1 .contenido .tituloIndex {
     font-weight: 400;
     padding: 25px;
@@ -233,10 +225,14 @@ body {
     font-size: 1.8rem;
     display: flex;
     flex-wrap: wrap; }
-  .texto1 {
+  .mainIndex .oficina4 {
+    padding: 5px;
+    margin: 10px auto; }
+  .mainIndex .texto1 {
     font-size: 0.8rem;
-    padding: 10px;
-    line-height: 10px; }
+    padding: 5px;
+    margin: 10px;
+    line-height: 27px; }
   .contenidosbrn .titulosbrn {
     padding: 10px;
     max-width: 350px;

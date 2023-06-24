@@ -1,33 +1,30 @@
+$colorbg:black;
 $colorbg2:#ffd900;
 $colorTexto:black;
+$colorTexto2: white;
+$colorTexto3: #ffd900;
 
 .navbar{
     font-size: 15px;
     font-weight: 500; 
+    .navbar-toggler{
+        border: none !important;
+        &:focus{
+            box-shadow: none !important;
+        }
+    }
+
     .posicion{
         display: flex;
         justify-content: flex-end;
         width: 100%; 
-        .navbar-toggler{
-            border: none !important;
-            &:focus{
-                box-shadow: none !important;
-
-            }
-        }
-        .navbar-collapse{
-            .navbar-nav{
-                .nav-item{
-                    .nav-link{
-                        &:hover{
-                            background-color: $colorbg2;
-                            color: $colorTexto;
-                            border-radius: 10px;
-                            font-weight: 500;
-                        }
-                    }
+        
+        .nav-item{
+            .nav-link{
+                &:hover{
+                    color: $colorTexto3;    
                 }
             }
-        }  
+        }
     }
 }
