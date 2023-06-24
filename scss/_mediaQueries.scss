@@ -65,13 +65,36 @@ $vista:mobile;
 
         }
 
-        
+        .contenidoFormulario{
+            background-image: url(../img/oficina2fondo.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+
+            .tituloFormulario{
+                text-align: center;
+                font-size: 1.5rem;
+                font-weight: 300;
+                align-items: center;
+                padding: 15px;
+                margin: 12px 0;
+        }
+            .formulario{
+                width: 90%;
+                padding: 15px;
+                background-color: white;
+                border-radius: 10px;
+                margin: 12px 0;
+        }
+    }
 
 
-      
-
-
-
+    
 
         .footerp{
             .icoImageFooter{

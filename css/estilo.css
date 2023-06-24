@@ -177,24 +177,30 @@ body {
       font-weight: 400;
       font-size: 1.3rem; }
 
-.mainContacto {
+.contenidoFormulario {
   background-image: url(../img/oficina2fondo.png);
-  height: 100vh;
-  padding: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  max-width: 1600px; }
-  .mainContacto .tituloContacto {
+  flex-wrap: wrap;
+  align-items: center; }
+  .contenidoFormulario .tituloFormulario {
     color: white;
-    margin: 20px; }
-  .mainContacto .formulario {
-    border-radius: 10px;
+    font-size: 2.5rem;
+    max-width: 400px;
+    font-weight: 400;
+    align-items: center;
+    padding: 10px;
+    margin: 30px; }
+  .contenidoFormulario .formulario {
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
     background-color: white;
-    padding: 20px; }
+    border-radius: 10px;
+    margin: 50px; }
 
 .footerp {
   background-color: black;
@@ -246,6 +252,29 @@ body {
       padding: 10px;
       display: flex;
       flex-wrap: wrap; }
+  .contenidoFormulario {
+    background-image: url(../img/oficina2fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around; }
+    .contenidoFormulario .tituloFormulario {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 300;
+      align-items: center;
+      padding: 15px;
+      margin: 12px 0; }
+    .contenidoFormulario .formulario {
+      width: 90%;
+      padding: 15px;
+      background-color: white;
+      border-radius: 10px;
+      margin: 12px 0; }
   .footerp .icoImageFooter {
     width: 80px;
     height: 40px; }

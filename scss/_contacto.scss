@@ -1,23 +1,29 @@
-.mainContacto{
+.contenidoFormulario{
     background-image: url(../img/oficina2fondo.png);
-    height: 100vh;
-    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    max-width: 1600px;
-   
-    .tituloContacto{
+    
+    .tituloFormulario{
         color: white;
-        margin: 20px;
+        font-size: 2.5rem;
+        max-width: 400px;
+        font-weight: 400;
+        align-items: center;
+        padding: 10px;
+        margin: 30px;
     }
     .formulario{
-        border-radius: 10px;
+        max-width: 600px;
+        width: 90%;
+        padding: 30px;
         background-color: white;
-        padding: 20px;
+        border-radius: 10px;
+        margin: 50px;
     }
 
 }
